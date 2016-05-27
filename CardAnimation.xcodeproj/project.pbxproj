@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F763C9541CF8A4F70002E427 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F763C9521CF8A4F70002E427 /* CardView.m */; };
+		F763C9551CF8A4F70002E427 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F763C9531CF8A4F70002E427 /* CardView.xib */; };
+		F763C9621CF8A5060002E427 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C9571CF8A5060002E427 /* 1.jpg */; };
+		F763C9631CF8A5060002E427 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C9581CF8A5060002E427 /* 2.jpg */; };
+		F763C9641CF8A5060002E427 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C9591CF8A5060002E427 /* 3.jpg */; };
+		F763C9651CF8A5060002E427 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C95A1CF8A5060002E427 /* 4.jpg */; };
+		F763C9661CF8A5060002E427 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C95B1CF8A5060002E427 /* 5.jpg */; };
+		F763C9671CF8A5060002E427 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C95C1CF8A5060002E427 /* 6.jpg */; };
+		F763C9681CF8A5060002E427 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F763C95D1CF8A5060002E427 /* 7.jpg */; };
+		F763C9691CF8A5060002E427 /* loading_2_animation_00000.png in Resources */ = {isa = PBXBuildFile; fileRef = F763C95E1CF8A5060002E427 /* loading_2_animation_00000.png */; };
+		F763C96A1CF8A5060002E427 /* loading_2_animation_00001.png in Resources */ = {isa = PBXBuildFile; fileRef = F763C95F1CF8A5060002E427 /* loading_2_animation_00001.png */; };
+		F763C96B1CF8A5060002E427 /* loading_2_animation_00002.png in Resources */ = {isa = PBXBuildFile; fileRef = F763C9601CF8A5060002E427 /* loading_2_animation_00002.png */; };
+		F763C96C1CF8A5060002E427 /* loading_2_animation_00003.png in Resources */ = {isa = PBXBuildFile; fileRef = F763C9611CF8A5060002E427 /* loading_2_animation_00003.png */; };
+		F7F502571CF88BBE0019B833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F502561CF88BBE0019B833 /* main.m */; };
+		F7F5025A1CF88BBE0019B833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F502591CF88BBE0019B833 /* AppDelegate.m */; };
+		F7F5025D1CF88BBE0019B833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5025C1CF88BBE0019B833 /* ViewController.m */; };
+		F7F502601CF88BBE0019B833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F5025E1CF88BBE0019B833 /* Main.storyboard */; };
+		F7F502621CF88BBE0019B833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F502611CF88BBE0019B833 /* Assets.xcassets */; };
+		F7F502651CF88BBE0019B833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F502631CF88BBE0019B833 /* LaunchScreen.storyboard */; };
+		F7F502701CF88BBE0019B833 /* CardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5026F1CF88BBE0019B833 /* CardAnimationTests.m */; };
+		F7F5027B1CF88BBE0019B833 /* CardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5027A1CF88BBE0019B833 /* CardAnimationUITests.m */; };
+		F7F502901CF88CC20019B833 /* CCAnimationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F5028C1CF88CC20019B833 /* CCAnimationContainerView.m */; };
+		F7F502941CF88D490019B833 /* CCAnimationLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F502931CF88D490019B833 /* CCAnimationLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7F5026C1CF88BBE0019B833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F5024A1CF88BBE0019B833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F502511CF88BBE0019B833;
+			remoteInfo = CardAnimation;
+		};
+		F7F502771CF88BBE0019B833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F5024A1CF88BBE0019B833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F502511CF88BBE0019B833;
+			remoteInfo = CardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F763C9511CF8A4F70002E427 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		F763C9521CF8A4F70002E427 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		F763C9531CF8A4F70002E427 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		F763C9571CF8A5060002E427 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F763C9581CF8A5060002E427 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F763C9591CF8A5060002E427 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F763C95A1CF8A5060002E427 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F763C95B1CF8A5060002E427 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F763C95C1CF8A5060002E427 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		F763C95D1CF8A5060002E427 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		F763C95E1CF8A5060002E427 /* loading_2_animation_00000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2_animation_00000.png; sourceTree = "<group>"; };
+		F763C95F1CF8A5060002E427 /* loading_2_animation_00001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2_animation_00001.png; sourceTree = "<group>"; };
+		F763C9601CF8A5060002E427 /* loading_2_animation_00002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2_animation_00002.png; sourceTree = "<group>"; };
+		F763C9611CF8A5060002E427 /* loading_2_animation_00003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_2_animation_00003.png; sourceTree = "<group>"; };
+		F7F502521CF88BBE0019B833 /* CardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F502561CF88BBE0019B833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F502581CF88BBE0019B833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7F502591CF88BBE0019B833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7F5025B1CF88BBE0019B833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7F5025C1CF88BBE0019B833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7F5025F1CF88BBE0019B833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7F502611CF88BBE0019B833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7F502641CF88BBE0019B833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7F502661CF88BBE0019B833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F5026B1CF88BBE0019B833 /* CardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F5026F1CF88BBE0019B833 /* CardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardAnimationTests.m; sourceTree = "<group>"; };
+		F7F502711CF88BBE0019B833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F502761CF88BBE0019B833 /* CardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F5027A1CF88BBE0019B833 /* CardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardAnimationUITests.m; sourceTree = "<group>"; };
+		F7F5027C1CF88BBE0019B833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F5028B1CF88CC20019B833 /* CCAnimationContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimationContainerView.h; sourceTree = "<group>"; };
+		F7F5028C1CF88CC20019B833 /* CCAnimationContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimationContainerView.m; sourceTree = "<group>"; };
+		F7F502921CF88D490019B833 /* CCAnimationLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimationLoadingView.h; sourceTree = "<group>"; };
+		F7F502931CF88D490019B833 /* CCAnimationLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimationLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F5024F1CF88BBE0019B833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502681CF88BBE0019B833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502731CF88BBE0019B833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F763C9501CF8A4F70002E427 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F763C9511CF8A4F70002E427 /* CardView.h */,
+				F763C9521CF8A4F70002E427 /* CardView.m */,
+				F763C9531CF8A4F70002E427 /* CardView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F763C9561CF8A5060002E427 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F763C9571CF8A5060002E427 /* 1.jpg */,
+				F763C9581CF8A5060002E427 /* 2.jpg */,
+				F763C9591CF8A5060002E427 /* 3.jpg */,
+				F763C95A1CF8A5060002E427 /* 4.jpg */,
+				F763C95B1CF8A5060002E427 /* 5.jpg */,
+				F763C95C1CF8A5060002E427 /* 6.jpg */,
+				F763C95D1CF8A5060002E427 /* 7.jpg */,
+				F763C95E1CF8A5060002E427 /* loading_2_animation_00000.png */,
+				F763C95F1CF8A5060002E427 /* loading_2_animation_00001.png */,
+				F763C9601CF8A5060002E427 /* loading_2_animation_00002.png */,
+				F763C9611CF8A5060002E427 /* loading_2_animation_00003.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7F502491CF88BBE0019B833 = {
+			isa = PBXGroup;
+			children = (
+				F7F502541CF88BBE0019B833 /* CardAnimation */,
+				F7F5026E1CF88BBE0019B833 /* CardAnimationTests */,
+				F7F502791CF88BBE0019B833 /* CardAnimationUITests */,
+				F7F502531CF88BBE0019B833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F502531CF88BBE0019B833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F502521CF88BBE0019B833 /* CardAnimation.app */,
+				F7F5026B1CF88BBE0019B833 /* CardAnimationTests.xctest */,
+				F7F502761CF88BBE0019B833 /* CardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F502541CF88BBE0019B833 /* CardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F7F502881CF88CC20019B833 /* Libs */,
+				F7F502581CF88BBE0019B833 /* AppDelegate.h */,
+				F7F502591CF88BBE0019B833 /* AppDelegate.m */,
+				F7F5025B1CF88BBE0019B833 /* ViewController.h */,
+				F7F5025C1CF88BBE0019B833 /* ViewController.m */,
+				F763C9501CF8A4F70002E427 /* Views */,
+				F763C9561CF8A5060002E427 /* Resources */,
+				F7F5025E1CF88BBE0019B833 /* Main.storyboard */,
+				F7F502611CF88BBE0019B833 /* Assets.xcassets */,
+				F7F502631CF88BBE0019B833 /* LaunchScreen.storyboard */,
+				F7F502661CF88BBE0019B833 /* Info.plist */,
+				F7F502551CF88BBE0019B833 /* Supporting Files */,
+			);
+			path = CardAnimation;
+			sourceTree = "<group>";
+		};
+		F7F502551CF88BBE0019B833 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7F502561CF88BBE0019B833 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7F5026E1CF88BBE0019B833 /* CardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5026F1CF88BBE0019B833 /* CardAnimationTests.m */,
+				F7F502711CF88BBE0019B833 /* Info.plist */,
+			);
+			path = CardAnimationTests;
+			sourceTree = "<group>";
+		};
+		F7F502791CF88BBE0019B833 /* CardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5027A1CF88BBE0019B833 /* CardAnimationUITests.m */,
+				F7F5027C1CF88BBE0019B833 /* Info.plist */,
+			);
+			path = CardAnimationUITests;
+			sourceTree = "<group>";
+		};
+		F7F502881CF88CC20019B833 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F7F5028B1CF88CC20019B833 /* CCAnimationContainerView.h */,
+				F7F5028C1CF88CC20019B833 /* CCAnimationContainerView.m */,
+				F7F502921CF88D490019B833 /* CCAnimationLoadingView.h */,
+				F7F502931CF88D490019B833 /* CCAnimationLoadingView.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F502511CF88BBE0019B833 /* CardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F5027F1CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimation" */;
+			buildPhases = (
+				F7F5024E1CF88BBE0019B833 /* Sources */,
+				F7F5024F1CF88BBE0019B833 /* Frameworks */,
+				F7F502501CF88BBE0019B833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardAnimation;
+			productName = CardAnimation;
+			productReference = F7F502521CF88BBE0019B833 /* CardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7F5026A1CF88BBE0019B833 /* CardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F502821CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimationTests" */;
+			buildPhases = (
+				F7F502671CF88BBE0019B833 /* Sources */,
+				F7F502681CF88BBE0019B833 /* Frameworks */,
+				F7F502691CF88BBE0019B833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F5026D1CF88BBE0019B833 /* PBXTargetDependency */,
+			);
+			name = CardAnimationTests;
+			productName = CardAnimationTests;
+			productReference = F7F5026B1CF88BBE0019B833 /* CardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7F502751CF88BBE0019B833 /* CardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F502851CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimationUITests" */;
+			buildPhases = (
+				F7F502721CF88BBE0019B833 /* Sources */,
+				F7F502731CF88BBE0019B833 /* Frameworks */,
+				F7F502741CF88BBE0019B833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F502781CF88BBE0019B833 /* PBXTargetDependency */,
+			);
+			name = CardAnimationUITests;
+			productName = CardAnimationUITests;
+			productReference = F7F502761CF88BBE0019B833 /* CardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F5024A1CF88BBE0019B833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leicunjie;
+				TargetAttributes = {
+					F7F502511CF88BBE0019B833 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F7F5026A1CF88BBE0019B833 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7F502511CF88BBE0019B833;
+					};
+					F7F502751CF88BBE0019B833 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F7F502511CF88BBE0019B833;
+					};
+				};
+			};
+			buildConfigurationList = F7F5024D1CF88BBE0019B833 /* Build configuration list for PBXProject "CardAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7F502491CF88BBE0019B833;
+			productRefGroup = F7F502531CF88BBE0019B833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F502511CF88BBE0019B833 /* CardAnimation */,
+				F7F5026A1CF88BBE0019B833 /* CardAnimationTests */,
+				F7F502751CF88BBE0019B833 /* CardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F502501CF88BBE0019B833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F763C9681CF8A5060002E427 /* 7.jpg in Resources */,
+				F763C9651CF8A5060002E427 /* 4.jpg in Resources */,
+				F763C9631CF8A5060002E427 /* 2.jpg in Resources */,
+				F763C96B1CF8A5060002E427 /* loading_2_animation_00002.png in Resources */,
+				F7F502651CF88BBE0019B833 /* LaunchScreen.storyboard in Resources */,
+				F763C96C1CF8A5060002E427 /* loading_2_animation_00003.png in Resources */,
+				F763C9661CF8A5060002E427 /* 5.jpg in Resources */,
+				F763C9691CF8A5060002E427 /* loading_2_animation_00000.png in Resources */,
+				F763C9671CF8A5060002E427 /* 6.jpg in Resources */,
+				F7F502621CF88BBE0019B833 /* Assets.xcassets in Resources */,
+				F763C9551CF8A4F70002E427 /* CardView.xib in Resources */,
+				F7F502601CF88BBE0019B833 /* Main.storyboard in Resources */,
+				F763C9641CF8A5060002E427 /* 3.jpg in Resources */,
+				F763C96A1CF8A5060002E427 /* loading_2_animation_00001.png in Resources */,
+				F763C9621CF8A5060002E427 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502691CF88BBE0019B833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502741CF88BBE0019B833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F5024E1CF88BBE0019B833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F763C9541CF8A4F70002E427 /* CardView.m in Sources */,
+				F7F502941CF88D490019B833 /* CCAnimationLoadingView.m in Sources */,
+				F7F5025D1CF88BBE0019B833 /* ViewController.m in Sources */,
+				F7F502901CF88CC20019B833 /* CCAnimationContainerView.m in Sources */,
+				F7F5025A1CF88BBE0019B833 /* AppDelegate.m in Sources */,
+				F7F502571CF88BBE0019B833 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502671CF88BBE0019B833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F502701CF88BBE0019B833 /* CardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F502721CF88BBE0019B833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F5027B1CF88BBE0019B833 /* CardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7F5026D1CF88BBE0019B833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F502511CF88BBE0019B833 /* CardAnimation */;
+			targetProxy = F7F5026C1CF88BBE0019B833 /* PBXContainerItemProxy */;
+		};
+		F7F502781CF88BBE0019B833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F502511CF88BBE0019B833 /* CardAnimation */;
+			targetProxy = F7F502771CF88BBE0019B833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7F5025E1CF88BBE0019B833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F5025F1CF88BBE0019B833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7F502631CF88BBE0019B833 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F502641CF88BBE0019B833 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F5027D1CF88BBE0019B833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7F5027E1CF88BBE0019B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7F502801CF88BBE0019B833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7F502811CF88BBE0019B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7F502831CF88BBE0019B833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardAnimation.app/CardAnimation";
+			};
+			name = Debug;
+		};
+		F7F502841CF88BBE0019B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardAnimation.app/CardAnimation";
+			};
+			name = Release;
+		};
+		F7F502861CF88BBE0019B833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardAnimation;
+			};
+			name = Debug;
+		};
+		F7F502871CF88BBE0019B833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leicunjie.CardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F5024D1CF88BBE0019B833 /* Build configuration list for PBXProject "CardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F5027D1CF88BBE0019B833 /* Debug */,
+				F7F5027E1CF88BBE0019B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F5027F1CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F502801CF88BBE0019B833 /* Debug */,
+				F7F502811CF88BBE0019B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F502821CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F502831CF88BBE0019B833 /* Debug */,
+				F7F502841CF88BBE0019B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F502851CF88BBE0019B833 /* Build configuration list for PBXNativeTarget "CardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F502861CF88BBE0019B833 /* Debug */,
+				F7F502871CF88BBE0019B833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F5024A1CF88BBE0019B833 /* Project object */;
+}
